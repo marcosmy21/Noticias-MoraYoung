@@ -1,0 +1,159 @@
+@font-face{
+	font-family: OpenSansCondensed;
+	src: url(../assets/fonts/OpenSansCondensed-LightItalic.ttf);
+}
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+ .imgLogo{
+	animation-duration: 8s;
+	animation-name: aparecer;
+	animation-iteration-count: 1;
+}
+
+.backg-image{
+	background-image: url(../assets/images/freepik-blanca-puntos-234567.jpg);
+}
+
+/*INDEX*/
+
+.imgLogo{
+	width: 5vw;
+}
+
+.imgRollheiser{
+	width: 32vw;
+	padding-top: 3vw;
+	padding-right: 1vw;
+}
+
+.flexF{
+	display: flex;
+}
+
+.videoJJOO{
+	width: 32vw;
+}
+
+.imgMessi{
+	width: 32vw;
+}
+
+.imgDuki{
+	width: 32vw;
+}
+
+
+
+.imgXbox{
+	padding-top: 3vw;
+}
+
+.imgVolcan{
+	padding-left: 3vw;
+}
+
+.navbar{
+	padding-bottom: 1vw;
+}
+
+.titulosPaginas{
+	padding: 1vw 45vw;
+}
+
+.div{
+	padding-left: 1vw;
+}
+
+/*NOTICIAS*/
+
+.imgApple{
+	padding-left: 3vw;
+}
+
+/*SOCIOS*/
+
+.center2{
+	display: flex;
+	justify-content: center;
+}
+
+.center{
+	padding: 2vw 0vw;
+}
+
+.rowSocios{
+	background-image: url(../assets/images/freepik-blanca-puntos-234567.jpg);
+	padding-top: 4vw;
+}
+
+/*CONTACTO*/
+
+.rowContacto{
+	padding: 4vw 0vw;
+}
+
+/*QUE HACEMOS?*/
+
+.imgRedactando{
+	width: 70vw;
+}
+
+.justify-content{
+	display: flex;
+	justify-content: center;
+}
+
+
+/*MEDIA QUERIE*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+	/*INDEX*/
+	.flexF{
+		display: flex;
+		display: inline-block;
+	}
+
+	.titulosPaginas{
+		padding: 1vw 35vw;
+	}
+
+	.imgRollheiser{
+		width: 90vw;
+	}
+
+	.imgVolcan{
+		padding-left: 10vw;
+	}
+
+	.imgXbox{
+		width: 90vw;
+	}
+
+	.imgMessi{
+		width: 90vw;
+	}
+
+	.imgLogo{
+		width: 15vw;
+	}
+
+	.videoJJOO{
+		width: 90vw;
+	}
+
+	.imgDuki{
+		width: 90vw;
+	}
+
+	.div{
+		display: flex;
+		justify-content: center;
+	}
+}
