@@ -19,8 +19,8 @@
 }
 
 .padding-nav{
-	padding-left: 16vw;
-	padding-right: 16vw;
+	padding-left: 15vw;
+	padding-right: 15vw;
 }
 
 .padding-nav-a{
@@ -45,6 +45,10 @@
 
 .imgLogo{
 	width: 5vw;
+}
+
+.titulo{
+	padding: 2vw 0vw;
 }
 
 .imgRollheiser{
